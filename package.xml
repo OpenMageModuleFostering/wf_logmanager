@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wf_Logmanager</name>
+    <version>0.1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Lets you view, disable or enable any extension's ability to log to the core Magento system.</summary>
+    <description>Lets you view, disable or enable any extension's ability to log to the core Magento system.&#xD;
+&#xD;
+This is useful if you're working with a client or you are a merchant that has a ton of extensions installed that are all writing to the same log files and you want to debug an issue without all the clutter.</description>
+    <notes>First release</notes>
+    <authors><author><name>Jay El-Kaake</name><user>magecredit</user><email>hi@magecredit.com</email></author></authors>
+    <date>2015-02-23</date>
+    <time>18:40:20</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Wf_Logmanager.xml" hash="f0a76bb50413c5c1eafaf81e6d827ecc"/></dir></target><target name="magecommunity"><dir name="Wf"><dir name="Logmanager"><dir name="Block"><dir name="Adminhtml"><file name="List.php" hash="faf889eb3a74f34d266e883f681354cf"/></dir></dir><dir name="Helper"><file name="Data.php" hash="5ce61dbc1a500c0594e24bb39a74f4bf"/></dir><dir name="Model"><file name="Manager.php" hash="fe25f42b20b584d7f85a137c4fbddb1d"/><dir name="Stream"><file name="Abstract.php" hash="a7df6b537e8e1c181e9e89673efc06c1"/></dir><file name="Stream.php" hash="e7bb1e08deebf08d734ac4b7e108b154"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ManagelogController.php" hash="d78bb0d511f8149e7c673e1f6a751b15"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="a6c59dca8e4206955a0231510464bcab"/><file name="config.xml" hash="6c1d456285524d8f9b19ac8162d68845"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.9</min><max>5.4.0</max></php></required></dependencies>
+</package>
